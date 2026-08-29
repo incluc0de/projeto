@@ -425,7 +425,7 @@ Atualmente, três projetos integram essa trajetória de investigação.
 
 ### 🎮 ALGame
 
-**ALGame: Ambiente de Programação Assistido por IA com Monitoramento EEG para
+**Ambiente de Programação Assistido por IA com Monitoramento EEG para
 Estudantes com TDAH**
 
 O **ALGame** representa a primeira implementação experimental desenvolvida no
@@ -439,7 +439,7 @@ Além de constituir um artefato educacional, o ALGame possibilita investigar
 estratégias de adaptação, interação e utilização de informações
 neurofisiológicas como elementos contextuais no processo de aprendizagem.
 
-**Vínculo:** Projeto de inovação – FABIN 2025  
+**Vínculo:** Projeto de Inovação – Edital nº 25/2025 – PRPI/IFB (FABIN 2025)  
 **Instituição:** Instituto Federal de Brasília (IFB)  
 **Ano:** 2025
 
@@ -485,7 +485,7 @@ Nesse cenário, o agente educacional constitui uma aplicação experimental para
 investigar mecanismos de contextualização e adaptação relacionados à
 Arquitetura de Referência IncluC0de.
 
-**Vínculo:** Projeto de pesquisa e inovação – Edital nº 18/2026 – PRPI/IFB
+**Vínculo:** Projeto de pesquisa e inovação – submetido ao Edital nº 18/2026 – PRPI/IFB
 (FABIN 2026)  
 **Instituição:** Instituto Federal de Brasília (IFB)  
 **Ano:** 2026
