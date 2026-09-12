@@ -1,7 +1,7 @@
 const researchers = [
     {
       name: 'Prof. Dr. Leandro Vaguetti',
-      role: 'Pesquisador',
+      role: 'Coordenador',
       institution: 'Instituto Federal de Brasília'
     },
     {
@@ -12,6 +12,34 @@ const researchers = [
     {
       name: 'Profa. Me. Hially Rabelo Vaguetti',
       role: 'Pesquisadora',
+      institution: 'Instituto Federal de Brasília'
+    }
+  ];
+
+  const bolsistas = [
+    {
+      name: 'Gabriel Oliveira Pinho',
+      role: 'PIBITI/Cnpq',
+      institution: 'Instituto Federal de Brasília'
+    },
+    {
+      name: 'Gustavo Ferraz Mota',
+      role: 'PIBITI/IFB',
+      institution: 'Instituto Federal de Brasília'
+    },
+    {
+      name: 'Rafael Henrique Carvalho da Silva',
+      role: 'FABIN25/IFB',
+      institution: 'Instituto Federal de Brasília'
+    },
+    {
+      name: 'Sofia Teixeira da Paixão da Silva',
+      role: 'FABIN26/IFB',
+      institution: 'Instituto Federal de Brasília'
+    },
+    {
+      name: 'Leonilson de Araújo dos Santos',
+      role: 'FABIN26/IFB',
       institution: 'Instituto Federal de Brasília'
     }
   ];
@@ -31,6 +59,34 @@ const researchers = [
   
           <div className="team-grid">
             {researchers.map((researcher) => (
+              <article className="team-card" key={researcher.name}>
+                <div className="team-avatar">
+                  {researcher.name
+                    .replace('Prof. Dr. ', '')
+                    .replace('Profa. Me. ', '')
+                    .split(' ')
+                    .slice(0, 2)
+                    .map((word) => word[0])
+                    .join('')}
+                </div>
+  
+                <h3>{researcher.name}</h3>
+  
+                <p className="team-role">
+                  {researcher.role}
+                </p>
+  
+                <p className="team-institution">
+                  {researcher.institution}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <h2>Bolsistas</h2>
+
+          <div className="team-grid">
+            {bolsistas.map((researcher) => (
               <article className="team-card" key={researcher.name}>
                 <div className="team-avatar">
                   {researcher.name

@@ -9,6 +9,15 @@ const projects = [
         'Primeira implementação experimental desenvolvida no contexto do IncluC0de, voltada inicialmente ao ensino de programação.'
     },
     {
+      year: '2025–2026',
+      title: 'IFBots',
+      subtitle:
+        'IFBots: Plataforma para Geração Dinâmica de Chatbots Institucionais com RAG e Agentes de IA',
+      program: 'PIBITI/CNPq',
+      description:
+        'Gera ChatBots inclusivos (com base em auto-identificação) dinamicamente.'
+    },
+    {
       year: '2026–2027',
       title: 'Plugin Neuroadaptativo para Moodle',
       subtitle:
