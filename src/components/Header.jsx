@@ -11,7 +11,7 @@ function Header() {
         <a href="#inicio" className="brand">
         <img src="/IncluC0de_SVG.svg" alt="IncluC0de" 
         style={{
-          width: "100px",
+          width: "85px",
           height: "auto",
           objectFit: "contain"
         }}/>
