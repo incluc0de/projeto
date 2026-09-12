@@ -9,7 +9,12 @@ function Header() {
     <header className="header">
       <div className="container header-content">
         <a href="#inicio" className="brand">
-          IncluC0de
+        <img src="/IncluC0de_SVG.svg" alt="IncluC0de" 
+        style={{
+          width: "80px",
+          height: "auto",
+          objectFit: "contain"
+        }}/>
         </a>
 
         <button
