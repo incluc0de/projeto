@@ -20,10 +20,7 @@ function App() {
 
         <Section id="sobre" title="Sobre o IncluC0de">
           <p>
-            O <strong>IncluC0de</strong> é um programa interdisciplinar de
-            pesquisa voltado ao desenvolvimento, integração e avaliação de
-            tecnologias educacionais adaptativas destinadas à promoção da
-            inclusão cognitiva em ambientes digitais de aprendizagem.
+          O <strong>IncluC0de</strong> é um programa interdisciplinar de pesquisa desenvolvido no âmbito do <strong>LAPIS</strong> (LinhAs de Produtos de Software para TecnologIas EducacionaiS), voltado ao desenvolvimento, integração e avaliação de tecnologias educacionais adaptativas destinadas à promoção da inclusão cognitiva em ambientes digitais de aprendizagem.
           </p>
 
           <p>
